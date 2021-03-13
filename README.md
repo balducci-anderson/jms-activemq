@@ -6,4 +6,6 @@ Foram criadas duas aplicações, um produtor e um consumidor de mensagens, para 
 
 O produtor envia um objeto do tipo Cliente para uma fila do broker ActiveMQ, que por sua vez fica responsável por enviar esta mensagem para o consumidor.
 
+O consumidor recebe a mensagem (objeto Cliente), e imprime os dados, desde que as propriedades do objeto definidas no produtor atendam o selector.
+
 É necessário baixar e executar o ActiveMQ para o funcionamento das aplicações
